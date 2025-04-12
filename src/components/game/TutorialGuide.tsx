@@ -3,7 +3,7 @@ import React from 'react';
 import { useGame } from '@/contexts/GameContext';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { MessageSquare, Settings, AwardCheck, X } from 'lucide-react';
+import { MessageSquare, Settings, Award, X } from 'lucide-react';
 
 const TutorialGuide: React.FC = () => {
   const { state, dispatch } = useGame();
@@ -35,7 +35,7 @@ const TutorialGuide: React.FC = () => {
     {
       title: "Completing Quests",
       content: "Select a quest from the quest panel to get started. Each quest has objectives, hints, and rewards. Use the right techniques to succeed!",
-      icon: <AwardCheck className="text-rpg-accent" size={24} />
+      icon: <Award className="text-rpg-accent" size={24} />
     }
   ];
   
