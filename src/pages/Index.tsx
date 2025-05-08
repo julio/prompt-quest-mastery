@@ -6,6 +6,8 @@ import { Toaster } from "@/components/ui/sonner";
 const Index = () => {
   return (
     <GameProvider>
+      <GameContainer />
+      <Toaster />
     </GameProvider>
   );
 };
